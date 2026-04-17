@@ -1,0 +1,90 @@
+body {
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+  background: #eee;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.form input {
+  padding: 8px;
+  width: 150px;
+}
+
+.form button {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.count {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr {
+  background: #f9f9f9;
+  margin-top: 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.toggle-btn:hover {
+  background: darkgreen;
+}
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
